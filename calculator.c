@@ -1,5 +1,5 @@
 #include<stdio.h>
-float operand(char op, float x, float y);// 함수 호출
+float operand(char op, float x, float y);// 함수 호출하기
 int main ( )
 {
 	char op;
