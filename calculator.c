@@ -1,5 +1,5 @@
 #include<stdio.h>
-float operand(char op, float x, float y);
+float operand(char op, float x, float y);// 함수 호출
 int main ( )
 {
 	char op;
@@ -10,7 +10,7 @@ int main ( )
 	scanf("%f %f", &x, &y);
 	operand(op,x,y);
 }
-	float operand(char op, float x, float y)
+	float operand(char op, float x, float y) //연산자 함수
 {
 	switch(op){
 		case'+':
